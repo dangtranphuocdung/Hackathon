@@ -1,0 +1,21 @@
+# Base path for the dataset
+path: D:\Myself\University\EE\TrashCan
+
+# Relative paths from base path
+train: images\train\images
+val: images\valid\images
+test: images\test\images
+
+# Number of classes
+nc: 9
+
+# Class names
+names: ['bottle-glass', 'bottle-plastic', 'cup-disposable', 'cup-handle', 'glass-mug', 'glass-normal', 'glass-wine', 'gym bottle', 'tin can']
+
+# Roboflow metadata (optional)
+roboflow:
+  workspace: roboflow-universe-projects
+  project: beverage-containers-3atxb
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/beverage-containers-3atxb/dataset/3
